@@ -1,4 +1,3 @@
-// const usersModel = require('./../../db/models/users');
 const connection = require("../../db/db");
 const bcrypt = require("bcrypt");
 const salt = 10;
