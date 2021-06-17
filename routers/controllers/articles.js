@@ -15,8 +15,6 @@ const getArticlesByAuthor = (req, res) => {
     if (err) throw err;
     res.json(result);
   });
-
-  //   if (!author) return res.status(404).json("not found");
 };
 
 const getAnArticleById = (req, res) => {
@@ -26,8 +24,6 @@ const getAnArticleById = (req, res) => {
     if (err) throw err;
     res.json(result);
   });
-
-  //   if (!id) return res.status(404).json("not found");
 };
 
 const createNewArticle = (req, res) => {
@@ -72,8 +68,6 @@ const deleteArticlesByAuthor = (req, res) => {
     res.json(result);
   });
 };
-
-
 
 module.exports = {
   getAllArticles,
